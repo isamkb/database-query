@@ -1,1 +1,2 @@
-required libraries: Pandas, Streamlit
+pandas
+streamlit
