@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-@st.cache_data()
+@st.cache()
 def load_df():
     df = pd.read_csv("titanic.csv")
     survival_options = df.Survived.unique()
